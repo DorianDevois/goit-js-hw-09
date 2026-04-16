@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-B5Qt9EMX.js";import{S as e}from"./assets/vendor-CRihUsbb.js";/* empty css                      */new e(".wrapper",{loop:!0,spaceBetween:30,autoplay:{delay:5e3,disableOnInteraction:!1,pauseOnMouseEnter:!0},pagination:{el:".swiper-pagination",clickable:!0,dynamicBullets:!0},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},breakpoints:{0:{slidesPerView:1},768:{slidesPerView:2},1024:{slidesPerView:3}}});
+//# sourceMappingURL=3-slider.js.map
