@@ -7,6 +7,9 @@
   margin: 0 auto;
 
   padding: var(--space-xl);
+
+  background-color: #fff;
+  border-radius: 8px;
 }
 
 .feedback-form label {
