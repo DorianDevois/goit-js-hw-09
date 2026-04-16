@@ -1,0 +1,61 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /* Letter spacing (tracking) */
+  /* body */
+  --tracking-text: 0.02em;
+  /* buttons, inputs, labels */
+  --tracking-ui: 0.04em;
+
+  /* 4px */
+  --radius-sm: 0.25rem;
+  /* 8px */
+  --radius-md: 0.5rem;
+
+  /* 8px */
+  --space-sm: 0.5rem;
+  /* 16px */
+  --space-lg: 1rem;
+  /* 24px */
+  --space-xl: 1.5rem;
+
+  --duration: 250ms;
+  --timing-func: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+
+  background: linear-gradient(#efefff, #cccbff);
+}
+
+main {
+  flex-grow: 1;
+}
+
+main:has(.back-link) {
+  text-align: center;
+}

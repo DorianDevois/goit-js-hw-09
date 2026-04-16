@@ -1,0 +1,76 @@
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+
+  width: 408px;
+  margin: 0 auto;
+
+  padding: var(--space-xl);
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-sm);
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  width: 360px;
+  padding: var(--space-sm) var(--space-lg);
+
+  border: 1px solid #808080;
+  border-radius: var(--radius-sm);
+
+  letter-spacing: var(--tracking-ui);
+  color: #2e2f42;
+
+  outline: none;
+
+  transition: border-color var(--duration) var(--timing-func);
+}
+
+.feedback-form input {
+  height: 40px;
+}
+
+.feedback-form textarea {
+  height: 80px;
+}
+
+.feedback-form input:hover,
+.feedback-form textarea:hover,
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  border: 1px solid black;
+}
+
+.feedback-form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+
+  height: 40px;
+
+  padding: var(--space-sm) var(--space-lg);
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+
+  margin-top: var(--space-sm);
+
+  font-weight: 500;
+  letter-spacing: var(--tracking-ui);
+  color: #fff;
+
+  background-color: #4e75ff;
+
+  transition: background-color var(--duration) var(--timing-func);
+}
+
+.feedback-form button:hover,
+.feedback-form button:focus {
+  background-color: #6c8cff;
+}
