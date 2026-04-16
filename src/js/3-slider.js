@@ -3,7 +3,7 @@ import 'swiper/css/bundle';
 import '../css/styles.css';
 
 // init Swiper:
-const swiper = new Swiper('.wrapper', {
+const swiper = new Swiper('.slider-wrapper', {
   // Optional parameters
   loop: true,
   spaceBetween: 30,
@@ -38,6 +38,9 @@ const swiper = new Swiper('.wrapper', {
     },
     1024: {
       slidesPerView: 3,
+    },
+    1440: {
+      slidesPerView: 4,
     },
   },
 });
